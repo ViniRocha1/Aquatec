@@ -1,0 +1,175 @@
+/* Adicionar aqui toda a estilização criada para sua aplicação. */
+
+@import url('https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    font-family: 'Barlow', Arial, Helvetica, sans-serif;
+}
+
+body{
+    background-color: #000;
+    margin: 0;
+}
+
+.container{
+    width: 80%;
+    display: flex;
+    margin: auto;
+}
+
+.header .container{
+    justify-content: space-between;
+}
+
+.header{
+    border-bottom: #32B9CD solid 3px;
+}
+.header .navbar{
+    list-style-type: none;
+    color: yellow;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 300px;
+}
+
+.header .navbar a{
+    color: yellow;
+    text-decoration: none;
+}
+
+.header .container .titulo{
+    color: #32B9CD;
+}
+.agora a{
+    font-weight: 600;
+}
+
+.banner {
+    height: 500px;
+    background-image: url("../assets/imgs/bg-jelly-fish-para-home.png");
+}
+
+.banner .container p {
+    color: white;
+    font-size: 40px;
+    width: 35%;
+    
+}
+
+.banner .container {
+    height: 100%;
+    justify-content: center;
+}
+
+.banner .container span {
+    font-weight: 600;
+}
+
+.social {
+    background-color: rgb(184, 184, 184);
+    padding: 40px 0;
+}
+
+
+.box {
+    width: 150px;
+    justify-items: center;
+    text-align: center;
+    padding-top: 10px;
+}
+.boxes {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.box img {
+    width: 50%;
+}
+
+.box h4 {
+    color: crimson;
+}
+
+
+.footer{
+    background-color: #32B9CD;
+}
+.footer .container{
+    display: block;
+    text-align: center;
+    padding: 20px 0 50px 0;
+}
+.footer .container h4{
+    margin: 0;
+}
+
+.login{
+    background-image: url('../assets/imgs/bg-jelly-fish-para_outras_pags.png');
+    height: 765px;
+}
+
+.login .container{
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.login .container .card, .login .container .card .campo, .login .container .card .formulario{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+.login .container .card .campo{
+    margin-bottom: 20px;
+}
+
+.login .container .card{
+    background-color: #c7b8b8;
+    width: 550px;
+    padding: 0 70px 20px 70px;
+    border-radius: 10px;
+}
+
+.login .container .card span{
+    width: 100%;
+    text-align: left;
+    color: #F2105D;
+}
+
+.campo input{
+    width: 100%;
+    text-align: center;
+    padding: 10px;
+    font-size: 16px;
+    border: 2px #32B9CD solid;
+    border-radius: 10px;
+}
+
+.card h2{
+    color: #F2105D;
+    font-size: 30px;
+}
+
+.botao{
+    background-color: #F2105D;
+    color: #fff;
+    font-weight: 600;
+    border: none;
+    padding: 5px 40px;
+    border-radius: 10px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.simulador{
+    height: 770px;
+}
+
+.simulador .container{
+    color: #fff;
+    flex-direction: column;
+}
